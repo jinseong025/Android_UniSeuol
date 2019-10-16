@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "82168433462",
+    "firebase_url": "https://uniseoul-3f94c.firebaseio.com",
+    "project_id": "uniseoul-3f94c",
+    "storage_bucket": "uniseoul-3f94c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82168433462:android:ea53e190d10c36e3db0197",
+        "android_client_info": {
+          "package_name": "com.nugu.uniseoul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82168433462-su5vts6s8umlsakgound0uiih43pjls0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nugu.uniseoul",
+            "certificate_hash": "55fbc69d30b4578870cea87d6f6423cd0474ccfa"
+          }
+        },
+        {
+          "client_id": "82168433462-7raf0e0u2hmvojpr49orcem471juee13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nugu.uniseoul",
+            "certificate_hash": "6aa4b86b1ebec558b14dcaa53ec2b976ed536941"
+          }
+        },
+        {
+          "client_id": "82168433462-j75ssnnq4sdgihauoaf11n9ol698ll1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nugu.uniseoul",
+            "certificate_hash": "4d23eb8234469a77ccbd6d80f4ea56662c8d4c22"
+          }
+        },
+        {
+          "client_id": "82168433462-2q9sv2e0lchjgeglnvvv565kq8khjgks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmRrgyjDycv2hadUKnOdGTM7KtLUkEZ3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82168433462-2q9sv2e0lchjgeglnvvv565kq8khjgks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

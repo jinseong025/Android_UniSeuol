@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="10">
+
+    <com.nugu.uniseoul.viewpager.SwipeViewPager
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/main_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        app:tabTextColor="#474848">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/main_tab_trip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:icon="@drawable/selector_trip"
+            android:text="여행정보"/>
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/main_tab_vol"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:icon="@drawable/selector_vol"
+            android:text="봉사신청" />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/main_tab_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:icon="@drawable/selector_profile"
+            android:text="My Page" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+</LinearLayout>
+
+
+

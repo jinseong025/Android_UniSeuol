@@ -1,0 +1,333 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nugu.uniseoul"
+4    android:versionCode="1"
+5    android:versionName="1.0" > <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+6    <uses-sdk
+7        android:minSdkVersion="16"
+7-->C:\UniSeoul\app\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="28" />
+8-->C:\UniSeoul\app\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\UniSeoul\app\src\main\AndroidManifest.xml:54:5-67
+10-->C:\UniSeoul\app\src\main\AndroidManifest.xml:54:22-64
+11
+12    <uses-feature
+12-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:11:5-13:35
+13        android:glEsVersion="0x00020000"
+13-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:12:9-41
+14        android:required="true" />
+14-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:13:9-32
+15    <uses-feature
+15-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:14:5-16:36
+16        android:name="android.hardware.wifi"
+16-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:15:9-45
+17        android:required="false" />
+17-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:16:9-33
+18
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:19:5-79
+19-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:19:22-76
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:20:5-76
+20-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:20:22-73
+21    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+21-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\09e58a4d133ca5961b1e6c775805be53\play-services-measurement-api-17.2.0\AndroidManifest.xml:24:5-68
+21-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\09e58a4d133ca5961b1e6c775805be53\play-services-measurement-api-17.2.0\AndroidManifest.xml:24:22-65
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+22-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:26:22-107
+24
+25    <application
+25-->C:\UniSeoul\app\src\main\AndroidManifest.xml:6:5-53:19
+26        android:allowBackup="false"
+26-->C:\UniSeoul\app\src\main\AndroidManifest.xml:7:9-36
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\0136ca65841c199e13145e51c5d77d51\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:icon="@mipmap/ic_launcher_uniseoul"
+28-->C:\UniSeoul\app\src\main\AndroidManifest.xml:8:9-52
+29        android:label="@string/app_name"
+29-->C:\UniSeoul\app\src\main\AndroidManifest.xml:9:9-41
+30        android:roundIcon="@mipmap/ic_launcher_uniseoul_round"
+30-->C:\UniSeoul\app\src\main\AndroidManifest.xml:10:9-63
+31        android:supportsRtl="true"
+31-->C:\UniSeoul\app\src\main\AndroidManifest.xml:11:9-35
+32        android:theme="@style/AppTheme"
+32-->C:\UniSeoul\app\src\main\AndroidManifest.xml:12:9-40
+33        android:usesCleartextTraffic="true" >
+33-->C:\UniSeoul\app\src\main\AndroidManifest.xml:13:9-44
+34        <activity android:name="com.nugu.uniseoul.SearchActivity" />
+34-->C:\UniSeoul\app\src\main\AndroidManifest.xml:15:9-61
+34-->C:\UniSeoul\app\src\main\AndroidManifest.xml:15:19-49
+35        <activity
+35-->C:\UniSeoul\app\src\main\AndroidManifest.xml:16:9-18:49
+36            android:name="com.nugu.uniseoul.SubwayActivity"
+36-->C:\UniSeoul\app\src\main\AndroidManifest.xml:17:13-43
+37            android:theme="@style/popupTheme" />
+37-->C:\UniSeoul\app\src\main\AndroidManifest.xml:18:13-46
+38        <activity
+38-->C:\UniSeoul\app\src\main\AndroidManifest.xml:19:9-21:49
+39            android:name="com.nugu.uniseoul.TransportActivity"
+39-->C:\UniSeoul\app\src\main\AndroidManifest.xml:20:13-46
+40            android:theme="@style/popupTheme" />
+40-->C:\UniSeoul\app\src\main\AndroidManifest.xml:21:13-46
+41        <activity android:name="com.nugu.uniseoul.BusRouteActivity" />
+41-->C:\UniSeoul\app\src\main\AndroidManifest.xml:22:9-54
+41-->C:\UniSeoul\app\src\main\AndroidManifest.xml:22:19-51
+42        <activity android:name="com.nugu.uniseoul.MapActivity" />
+42-->C:\UniSeoul\app\src\main\AndroidManifest.xml:23:9-49
+42-->C:\UniSeoul\app\src\main\AndroidManifest.xml:23:19-46
+43        <activity android:name="com.nugu.uniseoul.CourseActivity" />
+43-->C:\UniSeoul\app\src\main\AndroidManifest.xml:24:9-52
+43-->C:\UniSeoul\app\src\main\AndroidManifest.xml:24:19-49
+44        <activity android:name="com.nugu.uniseoul.MainActivity" />
+44-->C:\UniSeoul\app\src\main\AndroidManifest.xml:25:9-50
+44-->C:\UniSeoul\app\src\main\AndroidManifest.xml:25:19-47
+45        <activity android:name="com.nugu.uniseoul.LoginActivity" />
+45-->C:\UniSeoul\app\src\main\AndroidManifest.xml:26:9-51
+45-->C:\UniSeoul\app\src\main\AndroidManifest.xml:26:19-48
+46        <activity android:name="com.nugu.uniseoul.ReadReviewActivity" />
+46-->C:\UniSeoul\app\src\main\AndroidManifest.xml:27:9-56
+46-->C:\UniSeoul\app\src\main\AndroidManifest.xml:27:19-53
+47        <activity android:name="com.nugu.uniseoul.VolListActivity" />
+47-->C:\UniSeoul\app\src\main\AndroidManifest.xml:28:9-53
+47-->C:\UniSeoul\app\src\main\AndroidManifest.xml:28:19-50
+48        <activity android:name="com.nugu.uniseoul.WriteReviewActivity" />
+48-->C:\UniSeoul\app\src\main\AndroidManifest.xml:29:9-57
+48-->C:\UniSeoul\app\src\main\AndroidManifest.xml:29:19-54
+49        <activity android:name="com.nugu.uniseoul.fragment.VolFragment" />
+49-->C:\UniSeoul\app\src\main\AndroidManifest.xml:30:9-58
+49-->C:\UniSeoul\app\src\main\AndroidManifest.xml:30:19-55
+50        <activity android:name="com.nugu.uniseoul.SignupActivity" />
+50-->C:\UniSeoul\app\src\main\AndroidManifest.xml:31:9-51
+50-->C:\UniSeoul\app\src\main\AndroidManifest.xml:31:19-49
+51        <activity android:name="com.nugu.uniseoul.fragment.CourseFragment" >
+51-->C:\UniSeoul\app\src\main\AndroidManifest.xml:32:9-36:20
+51-->C:\UniSeoul\app\src\main\AndroidManifest.xml:32:19-58
+52            <intent-filter>
+52-->C:\UniSeoul\app\src\main\AndroidManifest.xml:33:13-35:29
+53                <action android:name="android.intent.action.SEARCH" />
+53-->C:\UniSeoul\app\src\main\AndroidManifest.xml:34:17-71
+53-->C:\UniSeoul\app\src\main\AndroidManifest.xml:34:25-68
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->C:\UniSeoul\app\src\main\AndroidManifest.xml:37:9-45:20
+57            android:name="com.nugu.uniseoul.LoadingActivity"
+57-->C:\UniSeoul\app\src\main\AndroidManifest.xml:38:13-44
+58            android:theme="@style/LoadingTheme" >
+58-->C:\UniSeoul\app\src\main\AndroidManifest.xml:39:13-48
+59            <intent-filter>
+59-->C:\UniSeoul\app\src\main\AndroidManifest.xml:40:13-44:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\UniSeoul\app\src\main\AndroidManifest.xml:41:17-69
+60-->C:\UniSeoul\app\src\main\AndroidManifest.xml:41:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\UniSeoul\app\src\main\AndroidManifest.xml:43:17-77
+62-->C:\UniSeoul\app\src\main\AndroidManifest.xml:43:27-74
+63            </intent-filter>
+64        </activity>
+65
+66        <meta-data
+66-->C:\UniSeoul\app\src\main\AndroidManifest.xml:47:9-49:55
+67            android:name="com.naver.maps.map.CLIENT_ID"
+67-->C:\UniSeoul\app\src\main\AndroidManifest.xml:48:13-56
+68            android:value="@string/naver_client_id" />
+68-->C:\UniSeoul\app\src\main\AndroidManifest.xml:49:13-52
+69        <meta-data
+69-->C:\UniSeoul\app\src\main\AndroidManifest.xml:50:9-52:50
+70            android:name="android.app.searchable"
+70-->C:\UniSeoul\app\src\main\AndroidManifest.xml:51:13-50
+71            android:resource="@xml/searchable" />
+71-->C:\UniSeoul\app\src\main\AndroidManifest.xml:52:13-47
+72
+73        <activity
+73-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:23:9-27:51
+74            android:name="com.naver.maps.map.app.LegendActivity"
+74-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:24:13-65
+75            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+75-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:25:13-91
+76            android:label="@string/navermap_legend"
+76-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:26:13-52
+77            android:theme="@style/navermap_app" />
+77-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:27:13-48
+78        <activity
+78-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:28:9-32:51
+79            android:name="com.naver.maps.map.app.LegalNoticeActivity"
+79-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:29:13-70
+80            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+80-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:30:13-91
+81            android:label="@string/navermap_legal_notice"
+81-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:31:13-58
+82            android:theme="@style/navermap_app" />
+82-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:32:13-48
+83        <activity
+83-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:33:9-37:51
+84            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
+84-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:34:13-76
+85            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+85-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:35:13-91
+86            android:label="@string/navermap_open_source_license"
+86-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:36:13-65
+87            android:theme="@style/navermap_app" />
+87-->[com.naver.maps:map-sdk:3.5.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\9cb7794462d456f9123784de190214d3\jetified-map-sdk-3.5.0\AndroidManifest.xml:37:13-48
+88        <activity
+88-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:24:9-31:50
+89            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+89-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:25:13-85
+90            android:excludeFromRecents="true"
+90-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:26:13-46
+91            android:exported="true"
+91-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:27:13-36
+92            android:launchMode="singleTask"
+92-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:28:13-44
+93            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+93-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:29:13-102
+94            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+94-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:30:13-72
+95
+96        <service
+96-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:33:9-39:19
+97            android:name="com.google.firebase.components.ComponentDiscoveryService"
+97-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:34:13-84
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:35:13-37
+99            <meta-data
+99-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:36:13-38:85
+100                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+100-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:37:17-109
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\69da79c4ce330b3365720076842c30a9\firebase-auth-19.0.0\AndroidManifest.xml:38:17-82
+102            <meta-data
+102-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\09e58a4d133ca5961b1e6c775805be53\play-services-measurement-api-17.2.0\AndroidManifest.xml:30:13-32:85
+103                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+103-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\09e58a4d133ca5961b1e6c775805be53\play-services-measurement-api-17.2.0\AndroidManifest.xml:31:17-139
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.android.gms:play-services-measurement-api:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\09e58a4d133ca5961b1e6c775805be53\play-services-measurement-api-17.2.0\AndroidManifest.xml:32:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+106                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+106-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+108        </service>
+109
+110        <activity
+110-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\a30df765310c266cd6d8e7c6c14c48ac\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+111            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+111-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\a30df765310c266cd6d8e7c6c14c48ac\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+112            android:excludeFromRecents="true"
+112-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\a30df765310c266cd6d8e7c6c14c48ac\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\a30df765310c266cd6d8e7c6c14c48ac\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\a30df765310c266cd6d8e7c6c14c48ac\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+115        <!--
+116            Service handling Google Sign-In user revocation. For apps that do not integrate with
+117            Google Sign-In, this service will never be started.
+118        -->
+119        <service
+119-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\a30df765310c266cd6d8e7c6c14c48ac\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+120            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+120-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\a30df765310c266cd6d8e7c6c14c48ac\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+121            android:exported="true"
+121-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\a30df765310c266cd6d8e7c6c14c48ac\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+122            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+122-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\a30df765310c266cd6d8e7c6c14c48ac\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+123
+124        <receiver
+124-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+125            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+125-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+126            android:exported="true"
+126-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+127            android:permission="com.google.android.c2dm.permission.SEND" >
+127-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+128            <intent-filter>
+128-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+129                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+129-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+129-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\957b0793de52737dcb2d552fb13bbbac\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+130            </intent-filter>
+131        </receiver>
+132
+133        <activity
+133-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\8eb866707b690ca0a19e0e3fe5cc8413\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+134-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\8eb866707b690ca0a19e0e3fe5cc8413\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\8eb866707b690ca0a19e0e3fe5cc8413\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\8eb866707b690ca0a19e0e3fe5cc8413\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+137
+138        <receiver
+138-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:29:9-33:20
+139            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+139-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:30:13-85
+140            android:enabled="true"
+140-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:31:13-35
+141            android:exported="false" >
+141-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:32:13-37
+142        </receiver>
+143        <receiver
+143-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:34:9-42:20
+144            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+144-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:35:13-100
+145            android:enabled="true"
+145-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:36:13-35
+146            android:exported="true"
+146-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:37:13-36
+147            android:permission="android.permission.INSTALL_PACKAGES" >
+147-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:38:13-69
+148            <intent-filter>
+148-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:39:13-41:29
+149                <action android:name="com.android.vending.INSTALL_REFERRER" />
+149-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:40:17-79
+149-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:40:25-76
+150            </intent-filter>
+151        </receiver>
+152
+153        <service
+153-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:44:9-47:40
+154            android:name="com.google.android.gms.measurement.AppMeasurementService"
+154-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:45:13-84
+155            android:enabled="true"
+155-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:46:13-35
+156            android:exported="false" />
+156-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:47:13-37
+157        <service
+157-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:48:9-52:72
+158            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+158-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:49:13-87
+159            android:enabled="true"
+159-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:50:13-35
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:51:13-37
+161            android:permission="android.permission.BIND_JOB_SERVICE" />
+161-->[com.google.android.gms:play-services-measurement:17.2.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\fdc70b0b7960929853ff7c757beb7d4f\play-services-measurement-17.2.0\AndroidManifest.xml:52:13-69
+162
+163        <provider
+163-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\daa9c6651247b129963b4bac8e5dd40c\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+164            android:name="com.google.firebase.provider.FirebaseInitProvider"
+164-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\daa9c6651247b129963b4bac8e5dd40c\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+165            android:authorities="com.nugu.uniseoul.firebaseinitprovider"
+165-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\daa9c6651247b129963b4bac8e5dd40c\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+166            android:exported="false"
+166-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\daa9c6651247b129963b4bac8e5dd40c\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+167            android:initOrder="100" />
+167-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\daa9c6651247b129963b4bac8e5dd40c\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+168
+169        <meta-data
+169-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\d7a2013c9d46e20857616e5363dc1383\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+170            android:name="com.google.android.gms.version"
+170-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\d7a2013c9d46e20857616e5363dc1383\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+171            android:value="@integer/google_play_services_version" />
+171-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Jinseong\.gradle\caches\transforms-2\files-2.1\d7a2013c9d46e20857616e5363dc1383\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+172    </application>
+173
+174</manifest>
